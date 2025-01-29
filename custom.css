@@ -1,3 +1,32 @@
-body {
-    font-size: 16px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #000; /* Add table borders */
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #000;
+}
+
+table th {
+    background-color: #3f72af; /* Heading row background color */
+    color: #ffffff;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row background color */
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff; /* Alternating row background color */
+}
+
+table td em {
+    color: red;
+    font-style: italic;
 }
